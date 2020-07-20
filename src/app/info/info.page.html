@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>info</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-slides>
+    <ion-slide *ngFor="let pet of pet_list">
+      <ion-card-content class="pet-info-container">
+        Ten pet: {{ pet.name }}
+        Loai: {{ pet.species }}
+        Giong: {{ pet.kinds }}
+        Dac diem nhan dang: {{ pet.attribute }}
+      </ion-card-content>
+    </ion-slide>
+  </ion-slides>
+</ion-content>
