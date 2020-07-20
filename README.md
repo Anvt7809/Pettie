@@ -1,2 +1,3 @@
 # Pettie
-project in SheCode-Hkt
+An easy app help you find your pet
+
