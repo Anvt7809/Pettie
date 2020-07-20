@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Đăng kí tài khoản Pettie</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <div class="main-image-container">
+        <p class="main-heading hello_sunshine">Pettie</p>
+      <div class="main-btn-container">
+        <ion-item>
+          <ion-label>Email</ion-label>
+          <ion-input type="text" ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Tên bạn</ion-label>
+          <ion-input type="text" ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label>Tên thú cưng</ion-label>
+          <ion-input type="text" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+        <ion-radio-group value="sex">
+            <ion-list>
+              <ion-label>Giới tính</ion-label>
+            </ion-list>
+            <ion-item>
+              <ion-label>Đực</ion-label>
+              <ion-radio slot="start" value="male"></ion-radio>
+            </ion-item>
+            <ion-item>
+              <ion-label>Cái</ion-label>
+              <ion-radio slot="start" value="female"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-item>
+
+        <ion-item>
+        <ion-label>Giống thú cưng</ion-label>
+        <ion-input type="text" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+        <ion-label>Tuổi thú cưng</ion-label>
+        <ion-input type="number" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Lịch sử bệnh án</ion-label>
+          <ion-textarea></ion-textarea>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Tình trạng sức khỏe hiện tại</ion-label>
+          <ion-textarea></ion-textarea>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Email</ion-label>
+          <ion-input type="email" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Mật khẩu</ion-label>
+          <ion-input type="password" ></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Nhập lại mật khẩu</ion-label>
+          <ion-input type="password" ></ion-input>
+        </ion-item>
+
+        <ion-button color="success">Đăng kí</ion-button>
+
+    </div>
+  </div>
+</div>
+</ion-content>
+
+
+
